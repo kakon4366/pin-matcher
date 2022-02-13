@@ -32,8 +32,7 @@ document.getElementById('key-pad').addEventListener('click', function(event){
     }
 })
 
-
-//verifay Pin
+//verifay Pin matched
 function verifyPin(){
     const displayPin = document.getElementById('display-pin').value;
     const displayNumbers =  document.getElementById('display-numbers').value;
